@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>medium</title>
+		<link rel="stylesheet" href="normalize.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header>
+			<div class="logo">M</div>
+
+			<div class="header--middle--content">
+				<div class="react--tutorials">
+					<img src="https://d262ilb51hltx0.cloudfront.net/fit/c/32/32/1*bs9PbxDndAW7mmqve3EQ-w.jpeg"/>
+				</div>
+				<div class="published">
+					<p>PUBLISHED IN <strong>React Tutorials</strong></p>
+				</div>
+			</div>
+
+			<div class="menubar">
+				<input class="menubar--item search" placeholder="search medium"></input>
+				<button class="menubar--item search--btn">?</button>
+				<button class="menubar--item sign_in">Sign in/Sign up</button>
+			</div>
+		</header>
+
+		<header class="header--secondary">
+			<div class="author--info header--secondary--left">
+				<img src="https://d262ilb51hltx0.cloudfront.net/fit/c/32/32/1*oZu4yGg3LiS4YBe_HnOKew.jpeg">
+				<div class="author--info--header">
+					<p>Chistopher Pitt</p> 
+					<p>Jan 14, 2014 . 6 min</p>
+				</div>
+			</div>
+			<div class="recommended  header--secondary--right">
+				<p><a href="">Marlene Compton</a> and <a href="">44 others</a> recommended</p>
+			</div>
+		</header>
+
+		<main class="content">
+			<h1>React Components</h1>
+			<p>Components are the smallest, yet most fundamental part of React. They're similar, in concepts, to things like widgets and modules. React defines itself as a <em>library for building user interfaces</em>. As such, when you think of a user interface you want to build (with React), you need to think of it in terms of the smallest possible components that you can define.</p>
+
+			<p>These components include code which defines how DOM elements are created and how users can interact with them. Components can be defined purely in JavaScript or they can be defined in a superset (or extended variation) of JavaScript called JSX. If you decide to use JSX for your component definitions, you may also need a compiler application, but we'll get to that in a minute.</p>
+
+			<div class="comment">
+				<p>We're going to be referring to pure JavaScript as JS and the React version of JavaScript as JSX.</p>
+
+				<p>You can find the accompanying source-code, for this tutorial, at: https://github.com/formativ/tutorial-react-components.</p>
+
+				<p>Please post any errors you find, or questions you have as comments on this article or as issues on GitHub.</p>
+
+				<p>Thanks to Pete Hunt for helping to improve this!</p>
+			</div>
+
+			<h2>Embedded HTML</h2>
+
+			<p>If you've been developing websites for a while, you may have flinched when I spoke about using HTML within your JavaScript. For the longest time, a development paradigm has existed which says that you should split HTML and JavaScript. Words like unobtrusive have been repurposed to express this kind of separation. That is exactly how I felt, until I started working with React.</p>
+
+			<p>The reason this paradigm exists is to decrease coupling (how much things depend on each other) and increase cohesion (how well different things work together). So we have created an environment in which we try our best to make HTML (and templates) as free of logic as possible. We then need to attach behaviour to this in the form of external scripts.</p>
+
+		</main>
+		<footer>
+			<div id="footer--left" class="footer--section">
+				<div class="react--tutorials">
+					<img src="https://d262ilb51hltx0.cloudfront.net/fit/c/32/32/1*bs9PbxDndAW7mmqve3EQ-w.jpeg"/>
+				</div>
+				<div id="author--info" class="footer--section author--info">
+					<img src="https://d262ilb51hltx0.cloudfront.net/fit/c/32/32/1*oZu4yGg3LiS4YBe_HnOKew.jpeg">
+					<p><span class="text--sec_color">Chistopher Pitt</span> on Jan 14, 2014 . 6 min<p>
+				</div>
+			</div>
+			<div id="footer--right" class="footer--section">
+				<div class="recommended">
+					<p><strong>Marlene Compton</strong> and <strong>44 others</strong> recommended</p>
+				</div>
+				<div class="social">
+					<div class="social--icon like"></div>
+					<div class="social--icon bookmark"></div>
+					<div class="social--icon share"></div>
+				</div>
+				<span class="story__next">Next Story</span>
+			</div>
+		</footer>
+	</body>
+</html>
